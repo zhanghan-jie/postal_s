@@ -1,0 +1,87 @@
+#path: E:\8.8\yolov5-master\myvoc\output-in
+#train: E:\8.8\yolov5-master\myvoc\output-in
+#val: E:\8.8\yolov5-master\myvoc\output-in
+#
+#nc: 4
+#
+#name:
+#  0: courier bag
+#  1: carton
+#  2: pocket
+#  3: General Package
+
+
+#train: E:\8.8\yolov5-master\myvoc\output-in
+#val: E:\8.8\yolov5-master\myvoc\output-in
+#
+#train_labels: E:\8.8\yolov5-master\myvoc\output-out
+#val_labels: E:\8.8\yolov5-master\myvoc\output-out
+## Classes
+#nc: 4
+#names:
+#  0: courier bag
+#  1: carton
+#  2: pocket
+#  3: General Package
+
+#train: E:\Images\images
+#val: E:\Images\images
+#
+#train_labels: F:\labels
+#val_labels: F:\labels
+
+train: E:\8.8\yolov5-master\image_all\images
+val: E:\8.8\yolov5-master\image_all\images
+
+train_labels: E:\8.8\yolov5-master\image_all\labels
+val_labels: E:\8.8\yolov5-master\image_all\labels
+
+
+
+# Classes
+nc: 7
+anchors:
+  -[111,108, 143,137, 174,170]
+  -[240,147, 151,245, 222,207]
+  -[263,249, 342,297, 431,346]
+#depth_multiple: 0.33  # model depth multiple
+#width_multiple: 0.50  # layer channel multiple
+#anchors:
+#  - [10,13, 16,30, 33,23]  # P3/8
+#  - [30,61, 62,45, 59,119]  # P4/16
+#  - [116,90, 156,198, 373,326]  # P5/32
+
+#backbone:
+#  - [ 10,13, 16,30, 33,23 ]  # P3/8
+#  - [ 30,61, 62,45, 59,119 ]  # P4/16
+#  - [ 116,90, 156,198, 373,326 ]  # P5/32
+#
+#head:
+#  - [ 10,13, 16,30, 33,23 ]  # P3/8
+#  - [ 30,61, 62,45, 59,119 ]  # P4/16
+#  - [ 116,90, 156,198, 373,326 ]  # P5/32
+
+#names:
+#  0: carton
+#  1: General Package
+#  2: courier bag
+#  3: Woven bags
+#  4: Face sheet
+#  5: pocket
+#  6: dilapidation
+#names:
+#  0: General Package
+#  1: carton
+#  2: Face sheet
+#  3: pocket
+#  4: courier bag
+#  5: dilapidation
+names:
+  0: carton
+  1: courier bag
+  2: General Package
+  3: pocket
+  4: dilapidation
+  5: Foam box
+  6: Special-shaped parts
+
